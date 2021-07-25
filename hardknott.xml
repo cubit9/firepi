@@ -12,32 +12,32 @@
     <project name="poky"
         remote="yocto"
         revision="hardknott"
-        path="poky-harknott"/>
+        path="poky-hardknott"/>
     
     <project name="meta-openembedded"
         remote="oe"
         revision="hardknott"
-        path="poky-harknott/meta-openembedded"/>
+        path="poky-hardknott/meta-openembedded"/>
 
     <project name="openembedded-core"
         remote="oe-core"
         revision="hardknott"
-        path="poky-harknott/openembedded-core"/>
+        path="poky-hardknott/openembedded-core"/>
 
     <project name="meta-raspberrypi"
         remote="raspberrypi"
         revision="hardknott"
-        path="poky-harknott/meta-raspberrypi"/>
+        path="poky-hardknott/meta-raspberrypi"/>
 
     <project name="meta-security"
         remote="security"
         revision="hardknott"
-        path="poky-harknott/meta-security"/>
+        path="poky-hardknott/meta-security"/>
 
     <project name="meta-cubit9"
         remote="cubit9"
         revision="hardknott"
-        path="poky-harknott/meta-cubit9"/>
+        path="poky-hardknott/meta-cubit9"/>
 
     <project name="meta-rpi64"
         remote="rpi64"
