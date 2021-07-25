@@ -3,9 +3,15 @@
 
     <remote name="oe" fetch="git://git.openembedded.org"/>
     <remote name="oe-core" fetch="git://git.openembedded.org"/>
+    <remote name="oe-multimedia" fetch="git://git.openembedded.org"/>
+    <remote name="oe-networking" fetch="git://git.openembedded.org"/>
+    <remote name="oe-perl" fetch="git://git.openembedded.org"/>
+    <remote name="oe-python" fetch="git://git.openembedded.org"/>
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
-    <remote name="wayland" fetch="https://github.com/MarkusVolk"/>
+    <remote name="security" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
+    <remote name="cubit9" fetch="https://github.com/cubit9"/>
+    <remote name="rpi64" fetch="https://github.com/cubit9"/>
 
     <project name="meta-openembedded"
         remote="oe"
@@ -17,20 +23,50 @@
         revision="hardknott"
         path="sources/openembedded-core"/>
 
-     <project name="poky"
+    <project name="openembedded-multimedia"
+        remote="oe-multimedia"
+        revision="hardknott"
+        path="sources/openembedded-multimedia"/>
+
+    <project name="openembedded-networking"
+        remote="oe-networking"
+        revision="hardknott"
+        path="sources/openembedded-networking"/>
+
+    <project name="openembedded-perl"
+        remote="oe-perl"
+        revision="hardknott"
+        path="sources/openembedded-perl"/>
+
+    <project name="openembedded-python"
+        remote="oe-python"
+        revision="hardknott"
+        path="sources/openembedded-python"/>
+
+    <project name="poky"
         remote="yocto"
         revision="hardknott"
         path="sources/poky"/>
 
-   <project name="meta-raspberrypi"
+    <project name="meta-raspberrypi"
         remote="raspberrypi"
         revision="hardknott"
         path="sources/meta-raspberrypi"/>
 
-    <project name="meta-wayland"
-        remote="wayland"
+    <project name="meta-security"
+        remote="security"
         revision="hardknott"
-        path="sources/meta-wayland"/>
+        path="sources/meta-security"/>
+
+    <project name="meta-cubit9"
+        remote="cubit9"
+        revision="hardknott"
+        path="sources/meta-cubit9"/>
+
+    <project name="meta-rpi64"
+        remote="rpi64"
+        revision="hardknott"
+        path="sources/meta-rpi64"/>
 
 </manifest>
 
