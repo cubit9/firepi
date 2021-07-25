@@ -9,40 +9,40 @@
     <remote name="cubit9" fetch="https://github.com/cubit9"/>
     <remote name="rpi64" fetch="https://github.com/cubit9"/>
 
+    <project name="poky"
+        remote="yocto"
+        revision="hardknott"
+        path="poky-harknott"/>
+    
     <project name="meta-openembedded"
         remote="oe"
         revision="hardknott"
-        path="sources/meta-openembedded"/>
+        path="poky-harknott/meta-openembedded"/>
 
     <project name="openembedded-core"
         remote="oe-core"
         revision="hardknott"
-        path="sources/openembedded-core"/>
-
-    <project name="poky"
-        remote="yocto"
-        revision="hardknott"
-        path="sources/poky"/>
+        path="poky-harknott/openembedded-core"/>
 
     <project name="meta-raspberrypi"
         remote="raspberrypi"
         revision="hardknott"
-        path="sources/meta-raspberrypi"/>
+        path="poky-harknott/meta-raspberrypi"/>
 
     <project name="meta-security"
         remote="security"
         revision="hardknott"
-        path="sources/meta-security"/>
+        path="poky-harknott/meta-security"/>
 
     <project name="meta-cubit9"
         remote="cubit9"
         revision="hardknott"
-        path="sources/meta-cubit9"/>
+        path="poky-harknott/meta-cubit9"/>
 
     <project name="meta-rpi64"
         remote="rpi64"
         revision="hardknott"
-        path="sources/meta-rpi64"/>
+        path="rpi64/meta-rpi64"/>
 
 </manifest>
 
